@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AsuMap</string>
+    <string name="net_enable">网络不可用</string>
+</resources>

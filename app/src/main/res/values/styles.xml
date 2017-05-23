@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置全屏 无标题-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 解决app启动时候白屏一闪而过的问题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowSwipeToDismiss">false</item>
+
+    </style>
+    <style name="WearAppTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>

@@ -91,7 +91,8 @@ public class BluePointActivity extends Activity{
      */
     private void setUpMap() {
         aMap.getUiSettings().setMyLocationButtonEnabled(false);// 设置默认定位按钮是否显示
-        aMap.setMyLocationEnabled(true);// 设置为true表示显示定位层并可触发定位，false表示隐藏定位层并不可触发定位，默认是false
+		aMap.getUiSettings().setZoomControlsEnabled(false);//设置默认高德地图右下角隐藏的缩放按钮
+		aMap.setMyLocationEnabled(true);// 设置为true表示显示定位层并可触发定位，false表示隐藏定位层并不可触发定位，默认是false
         setupLocationStyle();
     }
 

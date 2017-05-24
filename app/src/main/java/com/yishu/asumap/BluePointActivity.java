@@ -110,7 +110,9 @@ public class BluePointActivity extends AsuSlidingActivity{
         myLocationStyle.strokeWidth(5);
         // 设置圆形的填充颜色
         myLocationStyle.radiusFillColor(FILL_COLOR);
-        // 将自定义的 myLocationStyle 对象添加到地图上
+		//设置连续定位模式下的定位间隔，只在连续定位模式下生效，单次定位模式下不会生效。单位为毫秒。
+		myLocationStyle.interval(2000);
+		// 将自定义的 myLocationStyle 对象添加到地图上
         aMap.setMyLocationStyle(myLocationStyle);
     }
 }

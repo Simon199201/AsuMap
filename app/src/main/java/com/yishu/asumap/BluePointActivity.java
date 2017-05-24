@@ -1,6 +1,5 @@
 package com.yishu.asumap;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -13,7 +12,7 @@ import com.amap.api.maps.model.MyLocationStyle;
 
 
 
-public class BluePointActivity extends Activity{
+public class BluePointActivity extends AsuSlidingActivity{
 	private MapView mapView;
 	private AMap aMap;
     private static final int STROKE_COLOR = Color.argb(180, 3, 145, 255);
